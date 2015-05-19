@@ -1,0 +1,1198 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{d9c7092d-4fdf-48e9-bdb1-ff11c86503b1}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{731af431-06f1-4d30-929a-d9e2f8e60675}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro">
+      <UniqueIdentifier>{07de3f2b-5cde-436a-9632-48253c0628a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\game_utils">
+      <UniqueIdentifier>{28817b2c-5d9c-43fa-98c3-5dd5586d19c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\game_utils\font">
+      <UniqueIdentifier>{f23d3659-e105-4b06-8f0c-43c98b99b564}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\game_utils\camera">
+      <UniqueIdentifier>{209560d2-25f1-4077-9694-4cce4e1aa07b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\game_utils\drawlines">
+      <UniqueIdentifier>{bae80ff7-938e-4d52-b8f4-9df9e54fcfa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\game_utils\actionscript">
+      <UniqueIdentifier>{797bd3bc-ce11-40e7-9890-02b0e74c68ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\game_utils\actionscript\asset_loading">
+      <UniqueIdentifier>{f5bc3abb-acfd-4dee-bc78-781c5ab7870d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\game_utils\actionscript\asset_loading\tests">
+      <UniqueIdentifier>{fe5e9bce-698a-4cc4-845a-58310749f020}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\game_utils\actionscript\tests">
+      <UniqueIdentifier>{2d6b4972-0aa1-410f-a8d0-1b8dc35b36e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\game_utils\tween">
+      <UniqueIdentifier>{9ca31aed-15fd-4c21-98f9-5495626cf126}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\game_utils\tween\tests">
+      <UniqueIdentifier>{93e42055-59f1-4a25-ac44-0a60a1d366e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\poro">
+      <UniqueIdentifier>{8639a0ed-1273-4620-9053-edc5cd7dc271}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\poro\desktop">
+      <UniqueIdentifier>{aac69286-78ea-4011-af4f-955dfecf0a0a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\poro\desktop\windows">
+      <UniqueIdentifier>{1ae08eea-f7d0-48e5-b5c2-08443ba8b08e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\tester">
+      <UniqueIdentifier>{0014422a-ad6b-4d02-a43d-b9c1fab5633d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils">
+      <UniqueIdentifier>{fffabb06-0f5c-4adc-864d-7ebc76a7c2d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\math">
+      <UniqueIdentifier>{d6c2bb0a-5cc7-4a7a-9b46-4fd3484be280}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\random">
+      <UniqueIdentifier>{07dbd505-f2e3-41a2-98a1-a9e84fb644c9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\singleton">
+      <UniqueIdentifier>{2c17df68-d820-43e0-bd9c-9cecfa52a032}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\pow2assert">
+      <UniqueIdentifier>{6fc178e9-1bd3-4d1e-8d77-b76b29dbc210}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\staticarray">
+      <UniqueIdentifier>{b5d79d46-2bef-47a4-853b-9bd5618baca3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\color">
+      <UniqueIdentifier>{c7e688b8-1124-4610-aaf7-c966821b798b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\rect">
+      <UniqueIdentifier>{c9835e13-1403-4840-a2f1-ad867b548364}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\xml">
+      <UniqueIdentifier>{4028c156-8ea7-4ed0-b25e-d1e2ebe3da92}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\string">
+      <UniqueIdentifier>{6f73c34e-c014-427d-953e-ab34f2b03267}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\config_macro">
+      <UniqueIdentifier>{ce9c58b4-4042-4b92-a21d-674d485a157f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\config_macro\tests">
+      <UniqueIdentifier>{02abd98a-ad33-4452-93fc-145d542cdcce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\smartptr">
+      <UniqueIdentifier>{39c5f09f-5133-4889-b468-91d8cb1004a1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\timer">
+      <UniqueIdentifier>{fcb37c65-34a3-413b-a57c-d0fa7a054ca4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\logger">
+      <UniqueIdentifier>{4306aea5-c76d-490a-bff7-cd6810d32f17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\functionptr">
+      <UniqueIdentifier>{83aab23d-67f8-4824-956a-7959cfbbd724}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\functionptr\tests">
+      <UniqueIdentifier>{afd192a8-2945-434a-8997-823bdf1b8a32}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\easing">
+      <UniqueIdentifier>{bfa4c03a-5ddb-4b77-9c48-39d1eebc8072}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\easing\tests">
+      <UniqueIdentifier>{b60f49be-6bd8-4cbd-9314-9fc378410f8f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\safearray">
+      <UniqueIdentifier>{2665905e-b33d-496d-8275-1678f31437a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\safearray\tests">
+      <UniqueIdentifier>{58e90c69-e23e-4082-8c4c-da32cfe6e444}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\network">
+      <UniqueIdentifier>{6235f3f9-2250-45a5-a531-650ad7f6581d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\memcpy">
+      <UniqueIdentifier>{3a895359-922f-4e27-911f-ea39f8b652d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\imagetoarray">
+      <UniqueIdentifier>{db13ffa7-4e65-4a73-988e-099dbff33ace}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\poro\utils\filesystem">
+      <UniqueIdentifier>{09aaea67-a5a2-47ae-be0e-139d86981f6c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\lua">
+      <UniqueIdentifier>{00f2efac-ac70-4a29-afcb-b8188fcc903b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\misc_utils">
+      <UniqueIdentifier>{cc74d853-20d2-4b05-b787-04d0ae7ea5d9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\component_framework">
+      <UniqueIdentifier>{e21b0735-1265-4a1b-9e76-c2d0a5e1c002}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\components">
+      <UniqueIdentifier>{15a5489a-f569-4afc-a5da-e7d3fcf35654}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\component_systems">
+      <UniqueIdentifier>{1d59856a-f033-4bcf-9e9e-1827f9b137cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\lua">
+      <UniqueIdentifier>{446d64b8-6b53-478d-9482-542969c3b825}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gameplay_utils">
+      <UniqueIdentifier>{8146d19a-0d26-4a92-8222-1a1226a82477}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{7c4906bb-1ba4-4fb8-bb0b-cf086471593a}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{6f60ea11-a3f8-417c-90c4-561b1cd41dc8}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\lua_ui_test.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\no_more_meat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\font\cfont.cpp">
+      <Filter>Source Files\external\poro\game_utils\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\font\ifontalign.cpp">
+      <Filter>Source Files\external\poro\game_utils\font</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\camera\ccamera_zoom.cpp">
+      <Filter>Source Files\external\poro\game_utils\camera</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\drawlines\drawlines.cpp">
+      <Filter>Source Files\external\poro\game_utils\drawlines</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\as_math.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\displayobjectcontainer.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\event.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\eventdispatcher.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\sprite.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\textsprite.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\asset_loading\Animations.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript\asset_loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\asset_loading\AnimationUpdater.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript\asset_loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\asset_loading\Sheet.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript\asset_loading</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\asset_loading\tests\Animations_testing.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript\asset_loading\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\asset_loading\tests\Sheet_testing.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript\asset_loading\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\tests\displayobjectcontainer_test.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\tests\eventdispatcher_test.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\tests\vector_test.cpp">
+      <Filter>Source Files\external\poro\game_utils\actionscript\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\tween\gtween.cpp">
+      <Filter>Source Files\external\poro\game_utils\tween</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\tween\gtween_listener.cpp">
+      <Filter>Source Files\external\poro\game_utils\tween</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\tween\tween_utils.cpp">
+      <Filter>Source Files\external\poro\game_utils\tween</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\tween\tests\cinterpolator_test.cpp">
+      <Filter>Source Files\external\poro\game_utils\tween\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\game_utils\tween\tests\gtween_tester.cpp">
+      <Filter>Source Files\external\poro\game_utils\tween\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\default_application.cpp">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\event_recorder.cpp">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\iplatform.cpp">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\joystick.cpp">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\keyboard.cpp">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\mouse.cpp">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\touch.cpp">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\event_playback_impl.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\event_recorder_impl.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\graphics_buffer_opengl.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\graphics_opengl.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\joystick_impl.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\mouse_impl.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\platform_desktop.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\render_texture_opengl.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\shader_opengl.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\sound_sdl.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\soundplayer_sdl.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\texture3d_opengl.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\texture_opengl.cpp">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\poro\desktop\windows\platform_win.cpp">
+      <Filter>Source Files\external\poro\poro\desktop\windows</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\tester\ctester.cpp">
+      <Filter>Source Files\external\poro\tester</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\tester\ctester_numeric.cpp">
+      <Filter>Source Files\external\poro\tester</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\tester\float_compare.cpp">
+      <Filter>Source Files\external\poro\tester</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\tester\tester_console.cpp">
+      <Filter>Source Files\external\poro\tester</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\math\point_inside.cpp">
+      <Filter>Source Files\external\poro\utils\math</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\random\random.cpp">
+      <Filter>Source Files\external\poro\utils\random</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\singleton\csingleton.cpp">
+      <Filter>Source Files\external\poro\utils\singleton</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\pow2assert\pow2assert.cpp">
+      <Filter>Source Files\external\poro\utils\pow2assert</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\color\ccolor.cpp">
+      <Filter>Source Files\external\poro\utils\color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\color\color_utils.cpp">
+      <Filter>Source Files\external\poro\utils\color</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\rect\crect.cpp">
+      <Filter>Source Files\external\poro\utils\rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\rect\crect_functions.cpp">
+      <Filter>Source Files\external\poro\utils\rect</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\xml\canycontainer.cpp">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\xml\cxml.cpp">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\xml\cxmlcast.cpp">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\xml\cxmlnode.cpp">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\xml\cxmlparser.cpp">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\string\string.cpp">
+      <Filter>Source Files\external\poro\utils\string</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\config_macro\tests\config_macro_test.cpp">
+      <Filter>Source Files\external\poro\utils\config_macro\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\timer\ctimer.cpp">
+      <Filter>Source Files\external\poro\utils\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\timer\ctimer_impl.cpp">
+      <Filter>Source Files\external\poro\utils\timer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\logger\clog.cpp">
+      <Filter>Source Files\external\poro\utils\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\logger\cloglistenerforfile.cpp">
+      <Filter>Source Files\external\poro\utils\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\logger\logger.cpp">
+      <Filter>Source Files\external\poro\utils\logger</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\functionptr\tests\cfunctionptr_test.cpp">
+      <Filter>Source Files\external\poro\utils\functionptr\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\easing\easing.cpp">
+      <Filter>Source Files\external\poro\utils\easing</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\easing\tests\easing_test.cpp">
+      <Filter>Source Files\external\poro\utils\easing\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\safearray\tests\csafearray_test.cpp">
+      <Filter>Source Files\external\poro\utils\safearray\tests</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\network\network_utils.cpp">
+      <Filter>Source Files\external\poro\utils\network</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\memcpy\memcpy.c">
+      <Filter>Source Files\external\poro\utils\memcpy</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\imagetoarray\imagetoarray.cpp">
+      <Filter>Source Files\external\poro\utils\imagetoarray</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\poro\source\utils\filesystem\filesystem.cpp">
+      <Filter>Source Files\external\poro\utils\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lapi.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lauxlib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lbaselib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lbitlib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lcode.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lcorolib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lctype.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ldblib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ldebug.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ldo.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ldump.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lfunc.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lgc.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\linit.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\liolib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\llex.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lmathlib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lmem.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\loadlib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lobject.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lopcodes.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\loslib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lparser.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lstate.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lstring.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lstrlib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ltable.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ltablib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ltm.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lundump.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lvm.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lzio.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_utils\config_sliders.cpp">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_utils\debug_layer.cpp">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_utils\file_dialog.cpp">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_utils\metadata.cpp">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_utils\screenshotter.cpp">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_utils\simple_profiler.cpp">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_utils\simple_profiler_viewer.cpp">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\misc_utils\simple_ui.cpp">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_framework\Component.cpp">
+      <Filter>Source Files\component_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_framework\ComponentFactory.cpp">
+      <Filter>Source Files\component_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_framework\Entity.cpp">
+      <Filter>Source Files\component_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_framework\EntityManager.cpp">
+      <Filter>Source Files\component_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_framework\EntityProcessingSystem.cpp">
+      <Filter>Source Files\component_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_framework\EntityReference.cpp">
+      <Filter>Source Files\component_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_framework\EntitySerializer.cpp">
+      <Filter>Source Files\component_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_framework\EntitySystem.cpp">
+      <Filter>Source Files\component_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_framework\EventManager.cpp">
+      <Filter>Source Files\component_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_framework\GComponents.cpp">
+      <Filter>Source Files\component_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_framework\LuaBindings.cpp">
+      <Filter>Source Files\component_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_framework\SystemManager.cpp">
+      <Filter>Source Files\component_framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\lua\lua_manager.cpp">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\lua\lua_ui.cpp">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gameplay_utils\game_mouse.cpp">
+      <Filter>Source Files\gameplay_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\gameplay_utils\game_mouse_listener.cpp">
+      <Filter>Source Files\gameplay_utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_updators\card_system.cpp">
+      <Filter>Source Files\component_systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_updators\cardcontainer_system.cpp">
+      <Filter>Source Files\component_systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_updators\sprite_system.cpp">
+      <Filter>Source Files\component_systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\game_globals.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_updators\foodcard_system.cpp">
+      <Filter>Source Files\component_systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\component_updators\lifestylecard_system.cpp">
+      <Filter>Source Files\component_systems</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\lua\lua_game_api.cpp">
+      <Filter>Source Files\lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\lua_ui_test.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\no_more_meat.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\font\cfont.h">
+      <Filter>Source Files\external\poro\game_utils\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\font\ifontalign.h">
+      <Filter>Source Files\external\poro\game_utils\font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\camera\ccamera_zoom.h">
+      <Filter>Source Files\external\poro\game_utils\camera</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\drawlines\drawlines.h">
+      <Filter>Source Files\external\poro\game_utils\drawlines</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\actionscript.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\actionscript_anims.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\actionscript_types.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\actionscript_utils.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\animationmanager.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\as_math.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\displayobjectcontainer.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\event.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\eventdispatcher.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\sprite.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\textsprite.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\vector.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\asset_loading\Animations.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript\asset_loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\asset_loading\AnimationUpdater.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript\asset_loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\asset_loading\Sheet.h">
+      <Filter>Source Files\external\poro\game_utils\actionscript\asset_loading</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\tween\cinterpolator.h">
+      <Filter>Source Files\external\poro\game_utils\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\tween\gtween.h">
+      <Filter>Source Files\external\poro\game_utils\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\tween\gtween_listener.h">
+      <Filter>Source Files\external\poro\game_utils\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\tween\tween.h">
+      <Filter>Source Files\external\poro\game_utils\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\game_utils\tween\tween_utils.h">
+      <Filter>Source Files\external\poro\game_utils\tween</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\default_application.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\event_recorder.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\iapplication.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\igraphics.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\igraphics_buffer.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\ijoystick_listener.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\ikeyboard_listener.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\imouse_listener.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\iplatform.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\isound.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\isoundplayer.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\itexture.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\itouch_listener.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\joystick.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\keyboard.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\libraries.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\mouse.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\platform_defs.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\poro.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\poro_libraries.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\poro_macros.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\poro_types.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\run_poro.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\touch.h">
+      <Filter>Source Files\external\poro\poro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\event_playback_impl.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\event_recorder_impl.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\graphics_buffer_opengl.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\graphics_opengl.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\joystick_impl.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\mouse_impl.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\platform_desktop.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\render_texture_opengl.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\shader_opengl.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\sound_sdl.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\soundplayer_sdl.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\texture3d_opengl.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\texture_opengl.h">
+      <Filter>Source Files\external\poro\poro\desktop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\poro\desktop\windows\platform_win.h">
+      <Filter>Source Files\external\poro\poro\desktop\windows</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\tester\ctester.h">
+      <Filter>Source Files\external\poro\tester</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\tester\ctester_numeric.h">
+      <Filter>Source Files\external\poro\tester</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\tester\float_compare.h">
+      <Filter>Source Files\external\poro\tester</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\tester\tester_console.h">
+      <Filter>Source Files\external\poro\tester</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\tester\tester_macros.h">
+      <Filter>Source Files\external\poro\tester</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\tester\tester_utils.h">
+      <Filter>Source Files\external\poro\tester</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\debug.h">
+      <Filter>Source Files\external\poro\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\math\cangle.h">
+      <Filter>Source Files\external\poro\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\math\caverager.h">
+      <Filter>Source Files\external\poro\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\math\cmat22.h">
+      <Filter>Source Files\external\poro\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\math\cstatisticshelper.h">
+      <Filter>Source Files\external\poro\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\math\cvector2.h">
+      <Filter>Source Files\external\poro\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\math\cvector2_serializer.h">
+      <Filter>Source Files\external\poro\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\math\cxform.h">
+      <Filter>Source Files\external\poro\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\math\math_functions.h">
+      <Filter>Source Files\external\poro\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\math\math_utils.h">
+      <Filter>Source Files\external\poro\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\math\point_inside.h">
+      <Filter>Source Files\external\poro\utils\math</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\random\crandomvalues.h">
+      <Filter>Source Files\external\poro\utils\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\random\random.h">
+      <Filter>Source Files\external\poro\utils\random</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\singleton\csingleton.h">
+      <Filter>Source Files\external\poro\utils\singleton</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\pow2assert\pow2assert.h">
+      <Filter>Source Files\external\poro\utils\pow2assert</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\staticarray\staticarray.h">
+      <Filter>Source Files\external\poro\utils\staticarray</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\color\ccolor.h">
+      <Filter>Source Files\external\poro\utils\color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\color\color_utils.h">
+      <Filter>Source Files\external\poro\utils\color</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\rect\crect.h">
+      <Filter>Source Files\external\poro\utils\rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\rect\crect_functions.h">
+      <Filter>Source Files\external\poro\utils\rect</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\xml\canycontainer.h">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\xml\cmultikeyvector.h">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\xml\cvarreference.h">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\xml\cxml.h">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\xml\cxmlcast.h">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\xml\cxmlcontainers.h">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\xml\cxmlfilesys.h">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\xml\cxmlhandler.h">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\xml\cxmlnode.h">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\xml\cxmlparser.h">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\xml\xml_libraries.h">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\xml\xml_macros.h">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\string\enum.h">
+      <Filter>Source Files\external\poro\utils\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\string\string.h">
+      <Filter>Source Files\external\poro\utils\string</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\config_macro\config_macro.h">
+      <Filter>Source Files\external\poro\utils\config_macro</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\smartptr\csmartptr.h">
+      <Filter>Source Files\external\poro\utils\smartptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\smartptr\csmartptr_deletor.h">
+      <Filter>Source Files\external\poro\utils\smartptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\smartptr\csmartptrimpl.h">
+      <Filter>Source Files\external\poro\utils\smartptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\smartptr\csmartptrmanager.h">
+      <Filter>Source Files\external\poro\utils\smartptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\timer\ctimer.h">
+      <Filter>Source Files\external\poro\utils\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\timer\ctimer_impl.h">
+      <Filter>Source Files\external\poro\utils\timer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\logger\clog.h">
+      <Filter>Source Files\external\poro\utils\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\logger\cloglistener.h">
+      <Filter>Source Files\external\poro\utils\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\logger\cloglistenerforfile.h">
+      <Filter>Source Files\external\poro\utils\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\logger\iloglistener.h">
+      <Filter>Source Files\external\poro\utils\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\logger\logger.h">
+      <Filter>Source Files\external\poro\utils\logger</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\functionptr\cfunctionptr.h">
+      <Filter>Source Files\external\poro\utils\functionptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\functionptr\cfunctionptr_impl.h">
+      <Filter>Source Files\external\poro\utils\functionptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\functionptr\functionptr_libraries.h">
+      <Filter>Source Files\external\poro\utils\functionptr</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\easing\easing.h">
+      <Filter>Source Files\external\poro\utils\easing</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\safearray\csafearray.h">
+      <Filter>Source Files\external\poro\utils\safearray</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\network\network_libs.h">
+      <Filter>Source Files\external\poro\utils\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\network\network_serializer.h">
+      <Filter>Source Files\external\poro\utils\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\network\network_string.h">
+      <Filter>Source Files\external\poro\utils\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\network\network_utils.h">
+      <Filter>Source Files\external\poro\utils\network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\memcpy\memcpy.h">
+      <Filter>Source Files\external\poro\utils\memcpy</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\imagetoarray\imagetoarray.h">
+      <Filter>Source Files\external\poro\utils\imagetoarray</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\poro\source\utils\filesystem\filesystem.h">
+      <Filter>Source Files\external\poro\utils\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lapi.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lauxlib.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lcode.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lctype.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\ldebug.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\ldo.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lfunc.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lgc.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\llex.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\llimits.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lmem.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lobject.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lopcodes.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lparser.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lstate.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lstring.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\ltable.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\ltm.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lua.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lua.hpp">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\luaconf.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lualib.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lundump.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lvm.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lzio.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\misc_utils\config_sliders.h">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\misc_utils\config_ui.h">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\misc_utils\debug_layer.h">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\misc_utils\file_dialog.h">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\misc_utils\metadata.h">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\misc_utils\screenshotter.h">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\misc_utils\simple_profiler.h">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\misc_utils\simple_profiler_viewer.h">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\misc_utils\simple_ui.h">
+      <Filter>Source Files\misc_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\cf.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\Component.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\ComponentFactory.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\ComponentMacro.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\ComponentMapper.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\ComponentType.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\ComponentUpdator.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\Entity.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\EntityEvents.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\EntityManager.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\EntityProcessingSystem.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\EntityReference.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\EntitySerializer.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\EntitySystem.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\Event.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\EventManager.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\GComponents.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\LuaBindings.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\Message.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\MessageListener.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_framework\SystemManager.h">
+      <Filter>Source Files\component_framework</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\lua\lua_manager.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\lua\lua_ui.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gameplay_utils\game_mouse.h">
+      <Filter>Source Files\gameplay_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\gameplay_utils\game_mouse_listener.h">
+      <Filter>Source Files\gameplay_utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\components\card_component.h">
+      <Filter>Source Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\components\cardcontainer_component.h">
+      <Filter>Source Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\components\sprite_component.h">
+      <Filter>Source Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_updators\card_system.h">
+      <Filter>Source Files\component_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_updators\cardcontainer_system.h">
+      <Filter>Source Files\component_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_updators\sprite_system.h">
+      <Filter>Source Files\component_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\game_globals.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_updators\foodcard_system.h">
+      <Filter>Source Files\component_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\component_updators\lifestylecard_system.h">
+      <Filter>Source Files\component_systems</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\components\foodcard_component.h">
+      <Filter>Source Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\components\lifestylecard_component.h">
+      <Filter>Source Files\components</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\lua\lua_game_api.h">
+      <Filter>Source Files\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\poro\source\utils\xml\readme.txt">
+      <Filter>Source Files\external\poro\utils\xml</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Source\external\lua\Makefile">
+      <Filter>Source Files\external\lua</Filter>
+    </None>
+  </ItemGroup>
+</Project>

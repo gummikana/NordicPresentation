@@ -1,0 +1,34 @@
+<Font>
+  <Texture>
+    data/fonts/ubuntu.png
+  </Texture>
+  <LineHeight>
+    1200
+  </LineHeight>
+  <CharSpace>
+    0
+  </CharSpace>
+  <WordSpace>
+    0
+  </WordSpace>
+  <QuadChar id="48" offset_x="55" offset_y="-759" rect_h="776" rect_w="350" rect_x="1" rect_y="1" width="460.303" >
+  </QuadChar>
+  <QuadChar id="49" offset_x="74" offset_y="-742" rect_h="742" rect_w="224" rect_x="353" rect_y="1" width="460.303" >
+  </QuadChar>
+  <QuadChar id="50" offset_x="47" offset_y="-759" rect_h="759" rect_w="349" rect_x="579" rect_y="1" width="460.303" >
+  </QuadChar>
+  <QuadChar id="51" offset_x="44" offset_y="-759" rect_h="776" rect_w="344" rect_x="930" rect_y="1" width="460.303" >
+  </QuadChar>
+  <QuadChar id="52" offset_x="44" offset_y="-742" rect_h="742" rect_w="389" rect_x="1276" rect_y="1" width="460.303" >
+  </QuadChar>
+  <QuadChar id="53" offset_x="53" offset_y="-742" rect_h="759" rect_w="335" rect_x="1667" rect_y="1" width="460.303" >
+  </QuadChar>
+  <QuadChar id="54" offset_x="67" offset_y="-746" rect_h="763" rect_w="345" rect_x="2004" rect_y="1" width="460.303" >
+  </QuadChar>
+  <QuadChar id="55" offset_x="48" offset_y="-742" rect_h="742" rect_w="357" rect_x="2351" rect_y="1" width="460.303" >
+  </QuadChar>
+  <QuadChar id="56" offset_x="50" offset_y="-759" rect_h="776" rect_w="359" rect_x="2710" rect_y="1" width="460.303" >
+  </QuadChar>
+  <QuadChar id="57" offset_x="61" offset_y="-759" rect_h="762" rect_w="344" rect_x="3071" rect_y="1" width="460.303" >
+  </QuadChar>
+</Font>

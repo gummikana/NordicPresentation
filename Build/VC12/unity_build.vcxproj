@@ -1,0 +1,210 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectName>no_more_meat_dev</ProjectName>
+    <ProjectGuid>{D93D8F8A-D706-484C-BD76-E4F453AFB75F}</ProjectGuid>
+    <RootNamespace>no_more_meat_dev</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\ReleaseDev\</OutDir>
+    <IntDir>.\ReleaseDev\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\DebugDev\</OutDir>
+    <IntDir>.\DebugDev\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <TypeLibraryName>.\ReleaseDev/no_more_meat_dev.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\poro\source;..\..\Source\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;PORO_PLAT_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\ReleaseDev/no_more_meat_dev.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\ReleaseDev/</AssemblerListingLocation>
+      <ObjectFileName>.\ReleaseDev/</ObjectFileName>
+      <ProgramDataBaseFileName>.\ReleaseDev/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ForcedIncludeFiles>$(ProjectDir)disable_warnings.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040b</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>SDL.lib SDLmain.lib SDL_mixer.lib  user32.lib shell32.lib
+kernel32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\ReleaseDev/no_more_meat_dev.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libcpmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDatabaseFile>.\ReleaseDev/no_more_meat_dev.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\ReleaseDev/no_more_meat_dev.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <TypeLibraryName>.\DebugDev/no_more_meat_dev.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\poro\source;..\..\Source\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;PORO_PLAT_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\DebugDev/no_more_meat_dev.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\DebugDev/</AssemblerListingLocation>
+      <ObjectFileName>.\DebugDev/</ObjectFileName>
+      <ProgramDataBaseFileName>.\DebugDev/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForcedIncludeFiles>$(ProjectDir)disable_warnings.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040b</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>SDL.lib SDLmain.lib SDL_mixer.lib user32.lib shell32.lib
+kernel32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\DebugDev/no_more_meat_dev.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\DebugDev/no_more_meat_dev.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+      <ImageHasSafeExceptionHandlers>false</ImageHasSafeExceptionHandlers>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\DebugDev/no_more_meat_dev.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\external\lua\lapi.c" />
+    <ClCompile Include="..\..\Source\external\lua\lauxlib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lbaselib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lbitlib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lcode.c" />
+    <ClCompile Include="..\..\Source\external\lua\lcorolib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lctype.c" />
+    <ClCompile Include="..\..\Source\external\lua\ldblib.c" />
+    <ClCompile Include="..\..\Source\external\lua\ldebug.c" />
+    <ClCompile Include="..\..\Source\external\lua\ldo.c" />
+    <ClCompile Include="..\..\Source\external\lua\ldump.c" />
+    <ClCompile Include="..\..\Source\external\lua\lfunc.c" />
+    <ClCompile Include="..\..\Source\external\lua\lgc.c" />
+    <ClCompile Include="..\..\Source\external\lua\linit.c" />
+    <ClCompile Include="..\..\Source\external\lua\liolib.c" />
+    <ClCompile Include="..\..\Source\external\lua\llex.c" />
+    <ClCompile Include="..\..\Source\external\lua\lmathlib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lmem.c" />
+    <ClCompile Include="..\..\Source\external\lua\loadlib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lobject.c" />
+    <ClCompile Include="..\..\Source\external\lua\lopcodes.c" />
+    <ClCompile Include="..\..\Source\external\lua\loslib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lparser.c" />
+    <ClCompile Include="..\..\Source\external\lua\lstate.c" />
+    <ClCompile Include="..\..\Source\external\lua\lstring.c" />
+    <ClCompile Include="..\..\Source\external\lua\lstrlib.c" />
+    <ClCompile Include="..\..\Source\external\lua\ltable.c" />
+    <ClCompile Include="..\..\Source\external\lua\ltablib.c" />
+    <ClCompile Include="..\..\Source\external\lua\ltm.c" />
+    <ClCompile Include="..\..\Source\external\lua\lundump.c" />
+    <ClCompile Include="..\..\Source\external\lua\lvm.c" />
+    <ClCompile Include="..\..\Source\external\lua\lzio.c" />
+    <ClCompile Include="..\unity_build_engine.cpp" />
+    <ClCompile Include="..\unity_build_game.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\external\lua\lapi.h" />
+    <ClInclude Include="..\..\Source\external\lua\lauxlib.h" />
+    <ClInclude Include="..\..\Source\external\lua\lcode.h" />
+    <ClInclude Include="..\..\Source\external\lua\lctype.h" />
+    <ClInclude Include="..\..\Source\external\lua\ldebug.h" />
+    <ClInclude Include="..\..\Source\external\lua\ldo.h" />
+    <ClInclude Include="..\..\Source\external\lua\lfunc.h" />
+    <ClInclude Include="..\..\Source\external\lua\lgc.h" />
+    <ClInclude Include="..\..\Source\external\lua\llex.h" />
+    <ClInclude Include="..\..\Source\external\lua\llimits.h" />
+    <ClInclude Include="..\..\Source\external\lua\lmem.h" />
+    <ClInclude Include="..\..\Source\external\lua\lobject.h" />
+    <ClInclude Include="..\..\Source\external\lua\lopcodes.h" />
+    <ClInclude Include="..\..\Source\external\lua\lparser.h" />
+    <ClInclude Include="..\..\Source\external\lua\lstate.h" />
+    <ClInclude Include="..\..\Source\external\lua\lstring.h" />
+    <ClInclude Include="..\..\Source\external\lua\ltable.h" />
+    <ClInclude Include="..\..\Source\external\lua\ltm.h" />
+    <ClInclude Include="..\..\Source\external\lua\lua.h" />
+    <ClInclude Include="..\..\Source\external\lua\lua.hpp" />
+    <ClInclude Include="..\..\Source\external\lua\luaconf.h" />
+    <ClInclude Include="..\..\Source\external\lua\lualib.h" />
+    <ClInclude Include="..\..\Source\external\lua\lundump.h" />
+    <ClInclude Include="..\..\Source\external\lua\lvm.h" />
+    <ClInclude Include="..\..\Source\external\lua\lzio.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

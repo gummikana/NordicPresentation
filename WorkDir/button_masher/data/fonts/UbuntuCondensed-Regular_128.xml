@@ -1,0 +1,204 @@
+<Font>
+  <Texture>
+    data/fonts/UbuntuCondensed-Regular_128.png
+  </Texture>
+  <LineHeight>
+    128
+  </LineHeight>
+  <CharSpace>
+    0
+  </CharSpace>
+  <WordSpace>
+    0
+  </WordSpace>
+  <QuadChar id="32" offset_x="0" offset_y="0" rect_h="0" rect_w="0" rect_x="1" rect_y="1" width="22.2658" >
+  </QuadChar>
+  <QuadChar id="33" offset_x="8" offset_y="-80" rect_h="82" rect_w="14" rect_x="3" rect_y="1" width="30.0303" >
+  </QuadChar>
+  <QuadChar id="34" offset_x="7" offset_y="-87" rect_h="30" rect_w="29" rect_x="19" rect_y="1" width="43.1615" >
+  </QuadChar>
+  <QuadChar id="35" offset_x="5" offset_y="-80" rect_h="80" rect_w="55" rect_x="50" rect_y="1" width="64.7422" >
+  </QuadChar>
+  <QuadChar id="36" offset_x="6" offset_y="-89" rect_h="102" rect_w="37" rect_x="107" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="37" offset_x="5" offset_y="-81" rect_h="83" rect_w="64" rect_x="146" rect_y="1" width="73.6485" >
+  </QuadChar>
+  <QuadChar id="38" offset_x="5" offset_y="-81" rect_h="83" rect_w="53" rect_x="212" rect_y="1" width="58.3479" >
+  </QuadChar>
+  <QuadChar id="39" offset_x="7" offset_y="-87" rect_h="30" rect_w="11" rect_x="267" rect_y="1" width="25.3488" >
+  </QuadChar>
+  <QuadChar id="40" offset_x="8" offset_y="-90" rect_h="112" rect_w="24" rect_x="280" rect_y="1" width="32.5424" >
+  </QuadChar>
+  <QuadChar id="41" offset_x="0" offset_y="-90" rect_h="112" rect_w="24" rect_x="306" rect_y="1" width="32.5424" >
+  </QuadChar>
+  <QuadChar id="42" offset_x="3" offset_y="-81" rect_h="36" rect_w="38" rect_x="332" rect_y="1" width="44.1891" >
+  </QuadChar>
+  <QuadChar id="43" offset_x="4" offset_y="-55" rect_h="42" rect_w="41" rect_x="372" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="44" offset_x="4" offset_y="-14" rect_h="32" rect_w="15" rect_x="415" rect_y="1" width="26.4906" >
+  </QuadChar>
+  <QuadChar id="45" offset_x="2" offset_y="-39" rect_h="10" rect_w="22" rect_x="432" rect_y="1" width="26.6048" >
+  </QuadChar>
+  <QuadChar id="46" offset_x="6" offset_y="-13" rect_h="15" rect_w="15" rect_x="456" rect_y="1" width="26.4906" >
+  </QuadChar>
+  <QuadChar id="47" offset_x="-3" offset_y="-90" rect_h="112" rect_w="37" rect_x="473" rect_y="1" width="30.8296" >
+  </QuadChar>
+  <QuadChar id="48" offset_x="5" offset_y="-81" rect_h="83" rect_w="39" rect_x="512" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="49" offset_x="7" offset_y="-80" rect_h="80" rect_w="25" rect_x="553" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="50" offset_x="5" offset_y="-81" rect_h="81" rect_w="38" rect_x="580" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="51" offset_x="4" offset_y="-81" rect_h="83" rect_w="38" rect_x="620" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="52" offset_x="4" offset_y="-80" rect_h="80" rect_w="43" rect_x="660" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="53" offset_x="5" offset_y="-80" rect_h="82" rect_w="37" rect_x="705" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="54" offset_x="7" offset_y="-80" rect_h="82" rect_w="37" rect_x="744" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="55" offset_x="5" offset_y="-80" rect_h="80" rect_w="39" rect_x="783" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="56" offset_x="5" offset_y="-81" rect_h="83" rect_w="39" rect_x="824" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="57" offset_x="6" offset_y="-81" rect_h="82" rect_w="38" rect_x="865" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="58" offset_x="6" offset_y="-62" rect_h="64" rect_w="15" rect_x="905" rect_y="1" width="26.4906" >
+  </QuadChar>
+  <QuadChar id="59" offset_x="3" offset_y="-62" rect_h="80" rect_w="18" rect_x="922" rect_y="1" width="26.4906" >
+  </QuadChar>
+  <QuadChar id="60" offset_x="5" offset_y="-59" rect_h="50" rect_w="39" rect_x="942" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="61" offset_x="4" offset_y="-50" rect_h="32" rect_w="41" rect_x="983" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="62" offset_x="5" offset_y="-59" rect_h="50" rect_w="39" rect_x="1026" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="63" offset_x="2" offset_y="-81" rect_h="83" rect_w="35" rect_x="1067" rect_y="1" width="39.0508" >
+  </QuadChar>
+  <QuadChar id="64" offset_x="7" offset_y="-81" rect_h="99" rect_w="80" rect_x="1104" rect_y="1" width="94.0874" >
+  </QuadChar>
+  <QuadChar id="65" offset_x="2" offset_y="-80" rect_h="80" rect_w="54" rect_x="1186" rect_y="1" width="57.4344" >
+  </QuadChar>
+  <QuadChar id="66" offset_x="9" offset_y="-80" rect_h="81" rect_w="46" rect_x="1242" rect_y="1" width="59.4897" >
+  </QuadChar>
+  <QuadChar id="67" offset_x="6" offset_y="-81" rect_h="83" rect_w="46" rect_x="1290" rect_y="1" width="53.5522" >
+  </QuadChar>
+  <QuadChar id="68" offset_x="9" offset_y="-81" rect_h="82" rect_w="51" rect_x="1338" rect_y="1" width="65.7698" >
+  </QuadChar>
+  <QuadChar id="69" offset_x="9" offset_y="-80" rect_h="80" rect_w="38" rect_x="1391" rect_y="1" width="52.0678" >
+  </QuadChar>
+  <QuadChar id="70" offset_x="9" offset_y="-80" rect_h="80" rect_w="37" rect_x="1431" rect_y="1" width="48.6423" >
+  </QuadChar>
+  <QuadChar id="71" offset_x="6" offset_y="-81" rect_h="83" rect_w="47" rect_x="1470" rect_y="1" width="59.9465" >
+  </QuadChar>
+  <QuadChar id="72" offset_x="9" offset_y="-80" rect_h="80" rect_w="48" rect_x="1519" rect_y="1" width="65.7698" >
+  </QuadChar>
+  <QuadChar id="73" offset_x="9" offset_y="-80" rect_h="80" rect_w="11" rect_x="1569" rect_y="1" width="29.4594" >
+  </QuadChar>
+  <QuadChar id="74" offset_x="0" offset_y="-80" rect_h="82" rect_w="37" rect_x="1582" rect_y="1" width="45.1026" >
+  </QuadChar>
+  <QuadChar id="75" offset_x="9" offset_y="-80" rect_h="80" rect_w="49" rect_x="1621" rect_y="1" width="58.8046" >
+  </QuadChar>
+  <QuadChar id="76" offset_x="9" offset_y="-80" rect_h="80" rect_w="36" rect_x="1672" rect_y="1" width="47.6146" >
+  </QuadChar>
+  <QuadChar id="77" offset_x="7" offset_y="-80" rect_h="80" rect_w="69" rect_x="1710" rect_y="1" width="82.8974" >
+  </QuadChar>
+  <QuadChar id="78" offset_x="9" offset_y="-80" rect_h="80" rect_w="48" rect_x="1781" rect_y="1" width="66.3408" >
+  </QuadChar>
+  <QuadChar id="79" offset_x="6" offset_y="-81" rect_h="83" rect_w="57" rect_x="1831" rect_y="1" width="69.0812" >
+  </QuadChar>
+  <QuadChar id="80" offset_x="9" offset_y="-80" rect_h="80" rect_w="43" rect_x="1890" rect_y="1" width="55.3791" >
+  </QuadChar>
+  <QuadChar id="81" offset_x="6" offset_y="-81" rect_h="102" rect_w="57" rect_x="1935" rect_y="1" width="69.0812" >
+  </QuadChar>
+  <QuadChar id="82" offset_x="9" offset_y="-80" rect_h="80" rect_w="47" rect_x="1994" rect_y="1" width="58.6905" >
+  </QuadChar>
+  <QuadChar id="83" offset_x="2" offset_y="-81" rect_h="83" rect_w="42" rect_x="2043" rect_y="1" width="45.6735" >
+  </QuadChar>
+  <QuadChar id="84" offset_x="1" offset_y="-80" rect_h="80" rect_w="47" rect_x="2087" rect_y="1" width="48.6423" >
+  </QuadChar>
+  <QuadChar id="85" offset_x="8" offset_y="-80" rect_h="82" rect_w="46" rect_x="2136" rect_y="1" width="62.6869" >
+  </QuadChar>
+  <QuadChar id="86" offset_x="2" offset_y="-80" rect_h="80" rect_w="53" rect_x="2184" rect_y="1" width="56.7493" >
+  </QuadChar>
+  <QuadChar id="87" offset_x="4" offset_y="-80" rect_h="80" rect_w="78" rect_x="2239" rect_y="1" width="86.3229" >
+  </QuadChar>
+  <QuadChar id="88" offset_x="2" offset_y="-80" rect_h="80" rect_w="50" rect_x="2319" rect_y="1" width="53.7806" >
+  </QuadChar>
+  <QuadChar id="89" offset_x="0" offset_y="-80" rect_h="80" rect_w="52" rect_x="2371" rect_y="1" width="51.4969" >
+  </QuadChar>
+  <QuadChar id="90" offset_x="3" offset_y="-80" rect_h="80" rect_w="43" rect_x="2425" rect_y="1" width="49.3274" >
+  </QuadChar>
+  <QuadChar id="91" offset_x="10" offset_y="-90" rect_h="112" rect_w="22" rect_x="2470" rect_y="1" width="32.0856" >
+  </QuadChar>
+  <QuadChar id="92" offset_x="-3" offset_y="-90" rect_h="112" rect_w="37" rect_x="2494" rect_y="1" width="30.8296" >
+  </QuadChar>
+  <QuadChar id="93" offset_x="0" offset_y="-90" rect_h="112" rect_w="22" rect_x="2533" rect_y="1" width="32.0856" >
+  </QuadChar>
+  <QuadChar id="94" offset_x="3" offset_y="-80" rect_h="45" rect_w="43" rect_x="2557" rect_y="1" width="49.099" >
+  </QuadChar>
+  <QuadChar id="95" offset_x="-1" offset_y="12" rect_h="9" rect_w="44" rect_x="2602" rect_y="1" width="41.9054" >
+  </QuadChar>
+  <QuadChar id="96" offset_x="3" offset_y="-89" rect_h="23" rect_w="21" rect_x="2648" rect_y="1" width="35.8537" >
+  </QuadChar>
+  <QuadChar id="97" offset_x="4" offset_y="-62" rect_h="64" rect_w="38" rect_x="2671" rect_y="1" width="49.5558" >
+  </QuadChar>
+  <QuadChar id="98" offset_x="8" offset_y="-89" rect_h="91" rect_w="40" rect_x="2711" rect_y="1" width="53.3238" >
+  </QuadChar>
+  <QuadChar id="99" offset_x="5" offset_y="-62" rect_h="64" rect_w="34" rect_x="2753" rect_y="1" width="40.3069" >
+  </QuadChar>
+  <QuadChar id="100" offset_x="5" offset_y="-89" rect_h="91" rect_w="40" rect_x="2789" rect_y="1" width="53.3238" >
+  </QuadChar>
+  <QuadChar id="101" offset_x="5" offset_y="-62" rect_h="64" rect_w="40" rect_x="2831" rect_y="1" width="49.7841" >
+  </QuadChar>
+  <QuadChar id="102" offset_x="8" offset_y="-89" rect_h="89" rect_w="29" rect_x="2873" rect_y="1" width="34.9402" >
+  </QuadChar>
+  <QuadChar id="103" offset_x="5" offset_y="-62" rect_h="84" rect_w="40" rect_x="2904" rect_y="1" width="53.3238" >
+  </QuadChar>
+  <QuadChar id="104" offset_x="8" offset_y="-89" rect_h="89" rect_w="39" rect_x="2946" rect_y="1" width="55.0366" >
+  </QuadChar>
+  <QuadChar id="105" offset_x="7" offset_y="-84" rect_h="84" rect_w="14" rect_x="2987" rect_y="1" width="27.6325" >
+  </QuadChar>
+  <QuadChar id="106" offset_x="-4" offset_y="-84" rect_h="106" rect_w="25" rect_x="3003" rect_y="1" width="27.6325" >
+  </QuadChar>
+  <QuadChar id="107" offset_x="8" offset_y="-89" rect_h="89" rect_w="40" rect_x="3030" rect_y="1" width="48.7565" >
+  </QuadChar>
+  <QuadChar id="108" offset_x="8" offset_y="-89" rect_h="91" rect_w="18" rect_x="3072" rect_y="1" width="27.7467" >
+  </QuadChar>
+  <QuadChar id="109" offset_x="8" offset_y="-62" rect_h="62" rect_w="64" rect_x="3092" rect_y="1" width="79.7003" >
+  </QuadChar>
+  <QuadChar id="110" offset_x="8" offset_y="-62" rect_h="62" rect_w="39" rect_x="3158" rect_y="1" width="55.0366" >
+  </QuadChar>
+  <QuadChar id="111" offset_x="5" offset_y="-62" rect_h="64" rect_w="43" rect_x="3199" rect_y="1" width="52.8671" >
+  </QuadChar>
+  <QuadChar id="112" offset_x="8" offset_y="-62" rect_h="84" rect_w="40" rect_x="3244" rect_y="1" width="53.3238" >
+  </QuadChar>
+  <QuadChar id="113" offset_x="5" offset_y="-62" rect_h="84" rect_w="40" rect_x="3286" rect_y="1" width="53.3238" >
+  </QuadChar>
+  <QuadChar id="114" offset_x="8" offset_y="-62" rect_h="62" rect_w="29" rect_x="3328" rect_y="1" width="37.4523" >
+  </QuadChar>
+  <QuadChar id="115" offset_x="4" offset_y="-62" rect_h="64" rect_w="32" rect_x="3359" rect_y="1" width="38.9367" >
+  </QuadChar>
+  <QuadChar id="116" offset_x="8" offset_y="-78" rect_h="80" rect_w="27" rect_x="3393" rect_y="1" width="36.653" >
+  </QuadChar>
+  <QuadChar id="117" offset_x="8" offset_y="-60" rect_h="62" rect_w="39" rect_x="3422" rect_y="1" width="54.8082" >
+  </QuadChar>
+  <QuadChar id="118" offset_x="1" offset_y="-60" rect_h="60" rect_w="43" rect_x="3463" rect_y="1" width="45.331" >
+  </QuadChar>
+  <QuadChar id="119" offset_x="2" offset_y="-60" rect_h="60" rect_w="62" rect_x="3508" rect_y="1" width="65.4273" >
+  </QuadChar>
+  <QuadChar id="120" offset_x="1" offset_y="-60" rect_h="60" rect_w="43" rect_x="3572" rect_y="1" width="44.76" >
+  </QuadChar>
+  <QuadChar id="121" offset_x="0" offset_y="-60" rect_h="82" rect_w="44" rect_x="3617" rect_y="1" width="45.2168" >
+  </QuadChar>
+  <QuadChar id="122" offset_x="3" offset_y="-60" rect_h="60" rect_w="35" rect_x="3663" rect_y="1" width="40.6494" >
+  </QuadChar>
+  <QuadChar id="123" offset_x="4" offset_y="-90" rect_h="112" rect_w="26" rect_x="3700" rect_y="1" width="30.3729" >
+  </QuadChar>
+  <QuadChar id="124" offset_x="10" offset_y="-90" rect_h="112" rect_w="10" rect_x="3728" rect_y="1" width="30.7154" >
+  </QuadChar>
+  <QuadChar id="125" offset_x="0" offset_y="-90" rect_h="112" rect_w="27" rect_x="3740" rect_y="1" width="30.3729" >
+  </QuadChar>
+  <QuadChar id="126" offset_x="2" offset_y="-43" rect_h="18" rect_w="45" rect_x="3769" rect_y="1" width="49.099" >
+  </QuadChar>
+</Font>

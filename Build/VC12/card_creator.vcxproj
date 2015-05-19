@@ -1,0 +1,495 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{56294765-D3BA-4BF4-97E6-2756666408EC}</ProjectGuid>
+    <RootNamespace>card_creator</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v120</PlatformToolset>
+    <UseOfMfc>false</UseOfMfc>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC60.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>12.0.30501.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>.\Release\</OutDir>
+    <IntDir>.\Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>.\Debug\</OutDir>
+    <IntDir>.\Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Release/card_creator.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <AdditionalIncludeDirectories>..\..\poro\source;..\..\Source\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;PORO_PLAT_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeaderOutputFile>.\Release/card_creator.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Release/</AssemblerListingLocation>
+      <ObjectFileName>.\Release/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Release/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <ForcedIncludeFiles>$(ProjectDir)disable_warnings.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040b</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>SDL.lib SDLmain.lib SDL_mixer.lib  user32.lib shell32.lib
+kernel32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Release/card_creator.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <IgnoreSpecificDefaultLibraries>libcpmtd.lib;%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ProgramDatabaseFile>.\Release/card_creator.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Release/card_creator.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <TypeLibraryName>.\Debug/card_creator.tlb</TypeLibraryName>
+      <HeaderFileName />
+    </Midl>
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>..\..\poro\source;..\..\Source\external;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_CRT_SECURE_NO_DEPRECATE;PORO_PLAT_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <PrecompiledHeaderOutputFile>.\Debug/card_creator.pch</PrecompiledHeaderOutputFile>
+      <AssemblerListingLocation>.\Debug/</AssemblerListingLocation>
+      <ObjectFileName>.\Debug/</ObjectFileName>
+      <ProgramDataBaseFileName>.\Debug/</ProgramDataBaseFileName>
+      <WarningLevel>Level3</WarningLevel>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+      <ForcedIncludeFiles>$(ProjectDir)disable_warnings.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>_DEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <Culture>0x040b</Culture>
+    </ResourceCompile>
+    <Link>
+      <AdditionalOptions>SDL.lib SDLmain.lib SDL_mixer.lib user32.lib shell32.lib
+kernel32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>odbc32.lib;odbccp32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>.\Debug/card_creator.exe</OutputFile>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>.\Debug/card_creator.pdb</ProgramDatabaseFile>
+      <SubSystem>Console</SubSystem>
+      <RandomizedBaseAddress>false</RandomizedBaseAddress>
+      <DataExecutionPrevention />
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+    <Bscmake>
+      <SuppressStartupBanner>true</SuppressStartupBanner>
+      <OutputFile>.\Debug/card_creator.bsc</OutputFile>
+    </Bscmake>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\asset_loading\Animations.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\asset_loading\AnimationUpdater.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\asset_loading\Sheet.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\asset_loading\tests\Animations_testing.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\asset_loading\tests\Sheet_testing.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\as_math.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\displayobjectcontainer.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\event.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\eventdispatcher.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\sprite.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\tests\displayobjectcontainer_test.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\tests\eventdispatcher_test.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\tests\vector_test.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\actionscript\textsprite.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\camera\ccamera_zoom.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\drawlines\drawlines.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\font\cfont.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\font\ifontalign.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\tween\gtween.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\tween\gtween_listener.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\tween\tests\cinterpolator_test.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\tween\tests\gtween_tester.cpp" />
+    <ClCompile Include="..\..\poro\source\game_utils\tween\tween_utils.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\default_application.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\event_playback_impl.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\event_recorder_impl.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\graphics_buffer_opengl.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\graphics_opengl.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\joystick_impl.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\mouse_impl.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\platform_desktop.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\render_texture_opengl.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\shader_opengl.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\soundplayer_sdl.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\sound_sdl.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\texture3d_opengl.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\texture_opengl.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\desktop\windows\platform_win.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\event_recorder.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\iplatform.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\joystick.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\keyboard.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\mouse.cpp" />
+    <ClCompile Include="..\..\poro\source\poro\touch.cpp" />
+    <ClCompile Include="..\..\poro\source\tester\ctester.cpp" />
+    <ClCompile Include="..\..\poro\source\tester\ctester_numeric.cpp" />
+    <ClCompile Include="..\..\poro\source\tester\float_compare.cpp" />
+    <ClCompile Include="..\..\poro\source\tester\tester_console.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\color\ccolor.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\color\color_utils.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\config_macro\tests\config_macro_test.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\easing\easing.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\easing\tests\easing_test.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\filesystem\filesystem.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\functionptr\tests\cfunctionptr_test.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\imagetoarray\imagetoarray.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\logger\clog.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\logger\cloglistenerforfile.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\logger\logger.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\math\point_inside.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\memcpy\memcpy.c" />
+    <ClCompile Include="..\..\poro\source\utils\network\network_utils.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\pow2assert\pow2assert.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\random\random.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\rect\crect.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\rect\crect_functions.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\safearray\tests\csafearray_test.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\singleton\csingleton.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\string\string.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\timer\ctimer.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\timer\ctimer_impl.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\xml\canycontainer.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\xml\cxml.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\xml\cxmlcast.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\xml\cxmlnode.cpp" />
+    <ClCompile Include="..\..\poro\source\utils\xml\cxmlparser.cpp" />
+    <ClCompile Include="..\..\Source\component_framework\Component.cpp" />
+    <ClCompile Include="..\..\Source\component_framework\ComponentFactory.cpp" />
+    <ClCompile Include="..\..\Source\component_framework\Entity.cpp" />
+    <ClCompile Include="..\..\Source\component_framework\EntityManager.cpp" />
+    <ClCompile Include="..\..\Source\component_framework\EntityProcessingSystem.cpp" />
+    <ClCompile Include="..\..\Source\component_framework\EntityReference.cpp" />
+    <ClCompile Include="..\..\Source\component_framework\EntitySerializer.cpp" />
+    <ClCompile Include="..\..\Source\component_framework\EntitySystem.cpp" />
+    <ClCompile Include="..\..\Source\component_framework\EventManager.cpp" />
+    <ClCompile Include="..\..\Source\component_framework\GComponents.cpp" />
+    <ClCompile Include="..\..\Source\component_framework\LuaBindings.cpp" />
+    <ClCompile Include="..\..\Source\component_framework\SystemManager.cpp" />
+    <ClCompile Include="..\..\Source\component_updators\cardcontainer_system.cpp" />
+    <ClCompile Include="..\..\Source\component_updators\card_system.cpp" />
+    <ClCompile Include="..\..\Source\component_updators\foodcard_system.cpp" />
+    <ClCompile Include="..\..\Source\component_updators\lifestylecard_system.cpp" />
+    <ClCompile Include="..\..\Source\component_updators\sprite_system.cpp" />
+    <ClCompile Include="..\..\Source\external\lua\lapi.c" />
+    <ClCompile Include="..\..\Source\external\lua\lauxlib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lbaselib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lbitlib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lcode.c" />
+    <ClCompile Include="..\..\Source\external\lua\lcorolib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lctype.c" />
+    <ClCompile Include="..\..\Source\external\lua\ldblib.c" />
+    <ClCompile Include="..\..\Source\external\lua\ldebug.c" />
+    <ClCompile Include="..\..\Source\external\lua\ldo.c" />
+    <ClCompile Include="..\..\Source\external\lua\ldump.c" />
+    <ClCompile Include="..\..\Source\external\lua\lfunc.c" />
+    <ClCompile Include="..\..\Source\external\lua\lgc.c" />
+    <ClCompile Include="..\..\Source\external\lua\linit.c" />
+    <ClCompile Include="..\..\Source\external\lua\liolib.c" />
+    <ClCompile Include="..\..\Source\external\lua\llex.c" />
+    <ClCompile Include="..\..\Source\external\lua\lmathlib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lmem.c" />
+    <ClCompile Include="..\..\Source\external\lua\loadlib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lobject.c" />
+    <ClCompile Include="..\..\Source\external\lua\lopcodes.c" />
+    <ClCompile Include="..\..\Source\external\lua\loslib.c" />
+    <ClCompile Include="..\..\Source\external\lua\lparser.c" />
+    <ClCompile Include="..\..\Source\external\lua\lstate.c" />
+    <ClCompile Include="..\..\Source\external\lua\lstring.c" />
+    <ClCompile Include="..\..\Source\external\lua\lstrlib.c" />
+    <ClCompile Include="..\..\Source\external\lua\ltable.c" />
+    <ClCompile Include="..\..\Source\external\lua\ltablib.c" />
+    <ClCompile Include="..\..\Source\external\lua\ltm.c" />
+    <ClCompile Include="..\..\Source\external\lua\lundump.c" />
+    <ClCompile Include="..\..\Source\external\lua\lvm.c" />
+    <ClCompile Include="..\..\Source\external\lua\lzio.c" />
+    <ClCompile Include="..\..\Source\gameplay_utils\game_mouse.cpp" />
+    <ClCompile Include="..\..\Source\gameplay_utils\game_mouse_listener.cpp" />
+    <ClCompile Include="..\..\Source\game_globals.cpp" />
+    <ClCompile Include="..\..\Source\lua\lua_game_api.cpp" />
+    <ClCompile Include="..\..\Source\lua\lua_manager.cpp" />
+    <ClCompile Include="..\..\Source\lua\lua_ui.cpp" />
+    <ClCompile Include="..\..\Source\lua_ui_test.cpp" />
+    <ClCompile Include="..\..\Source\main.cpp" />
+    <ClCompile Include="..\..\Source\misc_utils\config_sliders.cpp" />
+    <ClCompile Include="..\..\Source\misc_utils\debug_layer.cpp" />
+    <ClCompile Include="..\..\Source\misc_utils\file_dialog.cpp" />
+    <ClCompile Include="..\..\Source\misc_utils\metadata.cpp" />
+    <ClCompile Include="..\..\Source\misc_utils\screenshotter.cpp" />
+    <ClCompile Include="..\..\Source\misc_utils\simple_profiler.cpp" />
+    <ClCompile Include="..\..\Source\misc_utils\simple_profiler_viewer.cpp" />
+    <ClCompile Include="..\..\Source\misc_utils\simple_ui.cpp" />
+    <ClCompile Include="..\..\Source\no_more_meat.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\actionscript.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\actionscript_anims.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\actionscript_types.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\actionscript_utils.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\animationmanager.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\asset_loading\Animations.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\asset_loading\AnimationUpdater.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\asset_loading\Sheet.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\as_math.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\displayobjectcontainer.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\event.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\eventdispatcher.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\sprite.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\textsprite.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\actionscript\vector.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\camera\ccamera_zoom.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\drawlines\drawlines.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\font\cfont.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\font\ifontalign.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\tween\cinterpolator.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\tween\gtween.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\tween\gtween_listener.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\tween\tween.h" />
+    <ClInclude Include="..\..\poro\source\game_utils\tween\tween_utils.h" />
+    <ClInclude Include="..\..\poro\source\poro\default_application.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\event_playback_impl.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\event_recorder_impl.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\graphics_buffer_opengl.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\graphics_opengl.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\joystick_impl.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\mouse_impl.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\platform_desktop.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\render_texture_opengl.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\shader_opengl.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\soundplayer_sdl.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\sound_sdl.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\texture3d_opengl.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\texture_opengl.h" />
+    <ClInclude Include="..\..\poro\source\poro\desktop\windows\platform_win.h" />
+    <ClInclude Include="..\..\poro\source\poro\event_recorder.h" />
+    <ClInclude Include="..\..\poro\source\poro\iapplication.h" />
+    <ClInclude Include="..\..\poro\source\poro\igraphics.h" />
+    <ClInclude Include="..\..\poro\source\poro\igraphics_buffer.h" />
+    <ClInclude Include="..\..\poro\source\poro\ijoystick_listener.h" />
+    <ClInclude Include="..\..\poro\source\poro\ikeyboard_listener.h" />
+    <ClInclude Include="..\..\poro\source\poro\imouse_listener.h" />
+    <ClInclude Include="..\..\poro\source\poro\iplatform.h" />
+    <ClInclude Include="..\..\poro\source\poro\isound.h" />
+    <ClInclude Include="..\..\poro\source\poro\isoundplayer.h" />
+    <ClInclude Include="..\..\poro\source\poro\itexture.h" />
+    <ClInclude Include="..\..\poro\source\poro\itouch_listener.h" />
+    <ClInclude Include="..\..\poro\source\poro\joystick.h" />
+    <ClInclude Include="..\..\poro\source\poro\keyboard.h" />
+    <ClInclude Include="..\..\poro\source\poro\libraries.h" />
+    <ClInclude Include="..\..\poro\source\poro\mouse.h" />
+    <ClInclude Include="..\..\poro\source\poro\platform_defs.h" />
+    <ClInclude Include="..\..\poro\source\poro\poro.h" />
+    <ClInclude Include="..\..\poro\source\poro\poro_libraries.h" />
+    <ClInclude Include="..\..\poro\source\poro\poro_macros.h" />
+    <ClInclude Include="..\..\poro\source\poro\poro_types.h" />
+    <ClInclude Include="..\..\poro\source\poro\run_poro.h" />
+    <ClInclude Include="..\..\poro\source\poro\touch.h" />
+    <ClInclude Include="..\..\poro\source\tester\ctester.h" />
+    <ClInclude Include="..\..\poro\source\tester\ctester_numeric.h" />
+    <ClInclude Include="..\..\poro\source\tester\float_compare.h" />
+    <ClInclude Include="..\..\poro\source\tester\tester_console.h" />
+    <ClInclude Include="..\..\poro\source\tester\tester_macros.h" />
+    <ClInclude Include="..\..\poro\source\tester\tester_utils.h" />
+    <ClInclude Include="..\..\poro\source\utils\color\ccolor.h" />
+    <ClInclude Include="..\..\poro\source\utils\color\color_utils.h" />
+    <ClInclude Include="..\..\poro\source\utils\config_macro\config_macro.h" />
+    <ClInclude Include="..\..\poro\source\utils\debug.h" />
+    <ClInclude Include="..\..\poro\source\utils\easing\easing.h" />
+    <ClInclude Include="..\..\poro\source\utils\filesystem\filesystem.h" />
+    <ClInclude Include="..\..\poro\source\utils\functionptr\cfunctionptr.h" />
+    <ClInclude Include="..\..\poro\source\utils\functionptr\cfunctionptr_impl.h" />
+    <ClInclude Include="..\..\poro\source\utils\functionptr\functionptr_libraries.h" />
+    <ClInclude Include="..\..\poro\source\utils\imagetoarray\imagetoarray.h" />
+    <ClInclude Include="..\..\poro\source\utils\logger\clog.h" />
+    <ClInclude Include="..\..\poro\source\utils\logger\cloglistener.h" />
+    <ClInclude Include="..\..\poro\source\utils\logger\cloglistenerforfile.h" />
+    <ClInclude Include="..\..\poro\source\utils\logger\iloglistener.h" />
+    <ClInclude Include="..\..\poro\source\utils\logger\logger.h" />
+    <ClInclude Include="..\..\poro\source\utils\math\cangle.h" />
+    <ClInclude Include="..\..\poro\source\utils\math\caverager.h" />
+    <ClInclude Include="..\..\poro\source\utils\math\cmat22.h" />
+    <ClInclude Include="..\..\poro\source\utils\math\cstatisticshelper.h" />
+    <ClInclude Include="..\..\poro\source\utils\math\cvector2.h" />
+    <ClInclude Include="..\..\poro\source\utils\math\cvector2_serializer.h" />
+    <ClInclude Include="..\..\poro\source\utils\math\cxform.h" />
+    <ClInclude Include="..\..\poro\source\utils\math\math_functions.h" />
+    <ClInclude Include="..\..\poro\source\utils\math\math_utils.h" />
+    <ClInclude Include="..\..\poro\source\utils\math\point_inside.h" />
+    <ClInclude Include="..\..\poro\source\utils\memcpy\memcpy.h" />
+    <ClInclude Include="..\..\poro\source\utils\network\network_libs.h" />
+    <ClInclude Include="..\..\poro\source\utils\network\network_serializer.h" />
+    <ClInclude Include="..\..\poro\source\utils\network\network_string.h" />
+    <ClInclude Include="..\..\poro\source\utils\network\network_utils.h" />
+    <ClInclude Include="..\..\poro\source\utils\pow2assert\pow2assert.h" />
+    <ClInclude Include="..\..\poro\source\utils\random\crandomvalues.h" />
+    <ClInclude Include="..\..\poro\source\utils\random\random.h" />
+    <ClInclude Include="..\..\poro\source\utils\rect\crect.h" />
+    <ClInclude Include="..\..\poro\source\utils\rect\crect_functions.h" />
+    <ClInclude Include="..\..\poro\source\utils\safearray\csafearray.h" />
+    <ClInclude Include="..\..\poro\source\utils\singleton\csingleton.h" />
+    <ClInclude Include="..\..\poro\source\utils\smartptr\csmartptr.h" />
+    <ClInclude Include="..\..\poro\source\utils\smartptr\csmartptrimpl.h" />
+    <ClInclude Include="..\..\poro\source\utils\smartptr\csmartptrmanager.h" />
+    <ClInclude Include="..\..\poro\source\utils\smartptr\csmartptr_deletor.h" />
+    <ClInclude Include="..\..\poro\source\utils\staticarray\staticarray.h" />
+    <ClInclude Include="..\..\poro\source\utils\string\enum.h" />
+    <ClInclude Include="..\..\poro\source\utils\string\string.h" />
+    <ClInclude Include="..\..\poro\source\utils\timer\ctimer.h" />
+    <ClInclude Include="..\..\poro\source\utils\timer\ctimer_impl.h" />
+    <ClInclude Include="..\..\poro\source\utils\xml\canycontainer.h" />
+    <ClInclude Include="..\..\poro\source\utils\xml\cmultikeyvector.h" />
+    <ClInclude Include="..\..\poro\source\utils\xml\cvarreference.h" />
+    <ClInclude Include="..\..\poro\source\utils\xml\cxml.h" />
+    <ClInclude Include="..\..\poro\source\utils\xml\cxmlcast.h" />
+    <ClInclude Include="..\..\poro\source\utils\xml\cxmlcontainers.h" />
+    <ClInclude Include="..\..\poro\source\utils\xml\cxmlfilesys.h" />
+    <ClInclude Include="..\..\poro\source\utils\xml\cxmlhandler.h" />
+    <ClInclude Include="..\..\poro\source\utils\xml\cxmlnode.h" />
+    <ClInclude Include="..\..\poro\source\utils\xml\cxmlparser.h" />
+    <ClInclude Include="..\..\poro\source\utils\xml\xml_libraries.h" />
+    <ClInclude Include="..\..\poro\source\utils\xml\xml_macros.h" />
+    <ClInclude Include="..\..\Source\components\cardcontainer_component.h" />
+    <ClInclude Include="..\..\Source\components\card_component.h" />
+    <ClInclude Include="..\..\Source\components\foodcard_component.h" />
+    <ClInclude Include="..\..\Source\components\lifestylecard_component.h" />
+    <ClInclude Include="..\..\Source\components\sprite_component.h" />
+    <ClInclude Include="..\..\Source\component_framework\cf.h" />
+    <ClInclude Include="..\..\Source\component_framework\Component.h" />
+    <ClInclude Include="..\..\Source\component_framework\ComponentFactory.h" />
+    <ClInclude Include="..\..\Source\component_framework\ComponentMacro.h" />
+    <ClInclude Include="..\..\Source\component_framework\ComponentMapper.h" />
+    <ClInclude Include="..\..\Source\component_framework\ComponentType.h" />
+    <ClInclude Include="..\..\Source\component_framework\ComponentUpdator.h" />
+    <ClInclude Include="..\..\Source\component_framework\Entity.h" />
+    <ClInclude Include="..\..\Source\component_framework\EntityEvents.h" />
+    <ClInclude Include="..\..\Source\component_framework\EntityManager.h" />
+    <ClInclude Include="..\..\Source\component_framework\EntityProcessingSystem.h" />
+    <ClInclude Include="..\..\Source\component_framework\EntityReference.h" />
+    <ClInclude Include="..\..\Source\component_framework\EntitySerializer.h" />
+    <ClInclude Include="..\..\Source\component_framework\EntitySystem.h" />
+    <ClInclude Include="..\..\Source\component_framework\Event.h" />
+    <ClInclude Include="..\..\Source\component_framework\EventManager.h" />
+    <ClInclude Include="..\..\Source\component_framework\GComponents.h" />
+    <ClInclude Include="..\..\Source\component_framework\LuaBindings.h" />
+    <ClInclude Include="..\..\Source\component_framework\Message.h" />
+    <ClInclude Include="..\..\Source\component_framework\MessageListener.h" />
+    <ClInclude Include="..\..\Source\component_framework\SystemManager.h" />
+    <ClInclude Include="..\..\Source\component_updators\cardcontainer_system.h" />
+    <ClInclude Include="..\..\Source\component_updators\card_system.h" />
+    <ClInclude Include="..\..\Source\component_updators\foodcard_system.h" />
+    <ClInclude Include="..\..\Source\component_updators\lifestylecard_system.h" />
+    <ClInclude Include="..\..\Source\component_updators\sprite_system.h" />
+    <ClInclude Include="..\..\Source\external\lua\lapi.h" />
+    <ClInclude Include="..\..\Source\external\lua\lauxlib.h" />
+    <ClInclude Include="..\..\Source\external\lua\lcode.h" />
+    <ClInclude Include="..\..\Source\external\lua\lctype.h" />
+    <ClInclude Include="..\..\Source\external\lua\ldebug.h" />
+    <ClInclude Include="..\..\Source\external\lua\ldo.h" />
+    <ClInclude Include="..\..\Source\external\lua\lfunc.h" />
+    <ClInclude Include="..\..\Source\external\lua\lgc.h" />
+    <ClInclude Include="..\..\Source\external\lua\llex.h" />
+    <ClInclude Include="..\..\Source\external\lua\llimits.h" />
+    <ClInclude Include="..\..\Source\external\lua\lmem.h" />
+    <ClInclude Include="..\..\Source\external\lua\lobject.h" />
+    <ClInclude Include="..\..\Source\external\lua\lopcodes.h" />
+    <ClInclude Include="..\..\Source\external\lua\lparser.h" />
+    <ClInclude Include="..\..\Source\external\lua\lstate.h" />
+    <ClInclude Include="..\..\Source\external\lua\lstring.h" />
+    <ClInclude Include="..\..\Source\external\lua\ltable.h" />
+    <ClInclude Include="..\..\Source\external\lua\ltm.h" />
+    <ClInclude Include="..\..\Source\external\lua\lua.h" />
+    <ClInclude Include="..\..\Source\external\lua\lua.hpp" />
+    <ClInclude Include="..\..\Source\external\lua\luaconf.h" />
+    <ClInclude Include="..\..\Source\external\lua\lualib.h" />
+    <ClInclude Include="..\..\Source\external\lua\lundump.h" />
+    <ClInclude Include="..\..\Source\external\lua\lvm.h" />
+    <ClInclude Include="..\..\Source\external\lua\lzio.h" />
+    <ClInclude Include="..\..\Source\gameplay_utils\game_mouse.h" />
+    <ClInclude Include="..\..\Source\gameplay_utils\game_mouse_listener.h" />
+    <ClInclude Include="..\..\Source\game_globals.h" />
+    <ClInclude Include="..\..\Source\lua\lua_game_api.h" />
+    <ClInclude Include="..\..\Source\lua\lua_manager.h" />
+    <ClInclude Include="..\..\Source\lua\lua_ui.h" />
+    <ClInclude Include="..\..\Source\lua_ui_test.h" />
+    <ClInclude Include="..\..\Source\misc_utils\config_sliders.h" />
+    <ClInclude Include="..\..\Source\misc_utils\config_ui.h" />
+    <ClInclude Include="..\..\Source\misc_utils\debug_layer.h" />
+    <ClInclude Include="..\..\Source\misc_utils\file_dialog.h" />
+    <ClInclude Include="..\..\Source\misc_utils\metadata.h" />
+    <ClInclude Include="..\..\Source\misc_utils\screenshotter.h" />
+    <ClInclude Include="..\..\Source\misc_utils\simple_profiler.h" />
+    <ClInclude Include="..\..\Source\misc_utils\simple_profiler_viewer.h" />
+    <ClInclude Include="..\..\Source\misc_utils\simple_ui.h" />
+    <ClInclude Include="..\..\Source\no_more_meat.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\poro\source\utils\xml\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\Source\external\lua\Makefile" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,204 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{84a4b29d-4a15-4a7e-995c-a54c10761057}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Source Files\external">
+      <UniqueIdentifier>{17ec3dc1-b211-4769-bc17-ecb0d1087400}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\external\lua">
+      <UniqueIdentifier>{a645fd58-d6bb-428b-bd8d-3077375fdcae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{2be2ce3c-4bcf-45ec-bc90-82b728288110}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{9952636e-ef06-4f4a-8898-bec91ed44e82}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\external\lua\lapi.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lauxlib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lbaselib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lbitlib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lcode.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lcorolib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lctype.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ldblib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ldebug.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ldo.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ldump.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lfunc.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lgc.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\linit.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\liolib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\llex.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lmathlib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lmem.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\loadlib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lobject.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lopcodes.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\loslib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lparser.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lstate.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lstring.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lstrlib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ltable.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ltablib.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\ltm.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lundump.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lvm.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\external\lua\lzio.c">
+      <Filter>Source Files\external\lua</Filter>
+    </ClCompile>
+    <ClCompile Include="..\unity_build_engine.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\unity_build_game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\external\lua\lapi.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lauxlib.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lcode.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lctype.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\ldebug.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\ldo.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lfunc.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lgc.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\llex.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\llimits.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lmem.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lobject.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lopcodes.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lparser.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lstate.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lstring.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\ltable.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\ltm.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lua.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lua.hpp">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\luaconf.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lualib.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lundump.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lvm.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\external\lua\lzio.h">
+      <Filter>Source Files\external\lua</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

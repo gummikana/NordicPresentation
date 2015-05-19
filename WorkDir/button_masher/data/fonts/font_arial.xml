@@ -1,0 +1,208 @@
+<FontData>
+  <Texture>
+    data/fonts/font_arial.png
+  </Texture>
+  <LineHeight>
+    16
+  </LineHeight>
+  <CharSpace>
+    0
+  </CharSpace>
+  <WordSpace>
+    8
+  </WordSpace>
+  <Char id="-60" rect_h="16" rect_w="8" rect_x="192" rect_y="80" >
+  </Char>
+  <Char id="-59" rect_h="16" rect_w="8" rect_x="0" rect_y="96" >
+  </Char>
+  <Char id="-42" rect_h="16" rect_w="10" rect_x="224" rect_y="80" >
+  </Char>
+  <Char id="-28" rect_h="16" rect_w="8" rect_x="176" rect_y="80" >
+  </Char>
+  <Char id="-27" rect_h="16" rect_w="16" rect_x="240" rect_y="80" >
+  </Char>
+  <Char id="-17" rect_h="16" rect_w="4" rect_x="0" rect_y="64" >
+  </Char>
+  <Char id="-10" rect_h="16" rect_w="8" rect_x="208" rect_y="80" >
+  </Char>
+  <Char id="32" rect_h="16" rect_w="8" rect_x="16" rect_y="0" >
+  </Char>
+  <Char id="33" rect_h="16" rect_w="3" rect_x="0" rect_y="0" >
+  </Char>
+  <Char id="34" rect_h="16" rect_w="5" rect_x="32" rect_y="0" >
+  </Char>
+  <Char id="35" rect_h="16" rect_w="8" rect_x="48" rect_y="0" >
+  </Char>
+  <Char id="36" rect_h="16" rect_w="7" rect_x="64" rect_y="0" >
+  </Char>
+  <Char id="37" rect_h="16" rect_w="11" rect_x="80" rect_y="0" >
+  </Char>
+  <Char id="38" rect_h="16" rect_w="8" rect_x="96" rect_y="0" >
+  </Char>
+  <Char id="39" rect_h="16" rect_w="2" rect_x="112" rect_y="0" >
+  </Char>
+  <Char id="40" rect_h="16" rect_w="4" rect_x="128" rect_y="0" >
+  </Char>
+  <Char id="41" rect_h="16" rect_w="5" rect_x="144" rect_y="0" >
+  </Char>
+  <Char id="42" rect_h="16" rect_w="5" rect_x="160" rect_y="0" >
+  </Char>
+  <Char id="43" rect_h="16" rect_w="7" rect_x="176" rect_y="0" >
+  </Char>
+  <Char id="44" rect_h="16" rect_w="3" rect_x="192" rect_y="0" >
+  </Char>
+  <Char id="45" rect_h="16" rect_w="4" rect_x="208" rect_y="0" >
+  </Char>
+  <Char id="46" rect_h="16" rect_w="3" rect_x="224" rect_y="0" >
+  </Char>
+  <Char id="47" rect_h="16" rect_w="5" rect_x="240" rect_y="0" >
+  </Char>
+  <Char id="48" rect_h="16" rect_w="8" rect_x="0" rect_y="16" >
+  </Char>
+  <Char id="49" rect_h="16" rect_w="5" rect_x="16" rect_y="16" >
+  </Char>
+  <Char id="50" rect_h="16" rect_w="7" rect_x="32" rect_y="16" >
+  </Char>
+  <Char id="51" rect_h="16" rect_w="8" rect_x="48" rect_y="16" >
+  </Char>
+  <Char id="52" rect_h="16" rect_w="7" rect_x="64" rect_y="16" >
+  </Char>
+  <Char id="53" rect_h="16" rect_w="8" rect_x="80" rect_y="16" >
+  </Char>
+  <Char id="54" rect_h="16" rect_w="8" rect_x="96" rect_y="16" >
+  </Char>
+  <Char id="55" rect_h="16" rect_w="7" rect_x="112" rect_y="16" >
+  </Char>
+  <Char id="56" rect_h="16" rect_w="8" rect_x="128" rect_y="16" >
+  </Char>
+  <Char id="57" rect_h="16" rect_w="7" rect_x="144" rect_y="16" >
+  </Char>
+  <Char id="58" rect_h="16" rect_w="3" rect_x="160" rect_y="16" >
+  </Char>
+  <Char id="59" rect_h="16" rect_w="3" rect_x="176" rect_y="16" >
+  </Char>
+  <Char id="60" rect_h="16" rect_w="7" rect_x="192" rect_y="16" >
+  </Char>
+  <Char id="61" rect_h="16" rect_w="8" rect_x="208" rect_y="16" >
+  </Char>
+  <Char id="62" rect_h="16" rect_w="13" rect_x="224" rect_y="16" >
+  </Char>
+  <Char id="63" rect_h="16" rect_w="7" rect_x="240" rect_y="16" >
+  </Char>
+  <Char id="64" rect_h="16" rect_w="12" rect_x="0" rect_y="32" >
+  </Char>
+  <Char id="65" rect_h="16" rect_w="8" rect_x="16" rect_y="32" >
+  </Char>
+  <Char id="66" rect_h="16" rect_w="8" rect_x="32" rect_y="32" >
+  </Char>
+  <Char id="67" rect_h="16" rect_w="10" rect_x="48" rect_y="32" >
+  </Char>
+  <Char id="68" rect_h="16" rect_w="10" rect_x="64" rect_y="32" >
+  </Char>
+  <Char id="69" rect_h="16" rect_w="8" rect_x="80" rect_y="32" >
+  </Char>
+  <Char id="70" rect_h="16" rect_w="8" rect_x="96" rect_y="32" >
+  </Char>
+  <Char id="71" rect_h="16" rect_w="10" rect_x="112" rect_y="32" >
+  </Char>
+  <Char id="72" rect_h="16" rect_w="9" rect_x="128" rect_y="32" >
+  </Char>
+  <Char id="73" rect_h="16" rect_w="3" rect_x="144" rect_y="32" >
+  </Char>
+  <Char id="74" rect_h="16" rect_w="6" rect_x="160" rect_y="32" >
+  </Char>
+  <Char id="75" rect_h="16" rect_w="8" rect_x="176" rect_y="32" >
+  </Char>
+  <Char id="76" rect_h="16" rect_w="6" rect_x="192" rect_y="32" >
+  </Char>
+  <Char id="77" rect_h="16" rect_w="10" rect_x="208" rect_y="32" >
+  </Char>
+  <Char id="78" rect_h="16" rect_w="9" rect_x="224" rect_y="32" >
+  </Char>
+  <Char id="79" rect_h="16" rect_w="10" rect_x="240" rect_y="32" >
+  </Char>
+  <Char id="80" rect_h="16" rect_w="8" rect_x="0" rect_y="48" >
+  </Char>
+  <Char id="81" rect_h="16" rect_w="10" rect_x="16" rect_y="48" >
+  </Char>
+  <Char id="82" rect_h="16" rect_w="9" rect_x="32" rect_y="48" >
+  </Char>
+  <Char id="83" rect_h="16" rect_w="8" rect_x="48" rect_y="48" >
+  </Char>
+  <Char id="84" rect_h="16" rect_w="8" rect_x="64" rect_y="48" >
+  </Char>
+  <Char id="85" rect_h="16" rect_w="9" rect_x="80" rect_y="48" >
+  </Char>
+  <Char id="86" rect_h="16" rect_w="9" rect_x="96" rect_y="48" >
+  </Char>
+  <Char id="87" rect_h="16" rect_w="13" rect_x="112" rect_y="48" >
+  </Char>
+  <Char id="88" rect_h="16" rect_w="8" rect_x="128" rect_y="48" >
+  </Char>
+  <Char id="89" rect_h="16" rect_w="8" rect_x="144" rect_y="48" >
+  </Char>
+  <Char id="90" rect_h="16" rect_w="8" rect_x="160" rect_y="48" >
+  </Char>
+  <Char id="91" rect_h="16" rect_w="5" rect_x="176" rect_y="48" >
+  </Char>
+  <Char id="92" rect_h="16" rect_w="5" rect_x="192" rect_y="48" >
+  </Char>
+  <Char id="93" rect_h="16" rect_w="4" rect_x="208" rect_y="48" >
+  </Char>
+  <Char id="94" rect_h="16" rect_w="6" rect_x="224" rect_y="48" >
+  </Char>
+  <Char id="95" rect_h="16" rect_w="7" rect_x="240" rect_y="48" >
+  </Char>
+  <Char id="97" rect_h="16" rect_w="7" rect_x="16" rect_y="64" >
+  </Char>
+  <Char id="98" rect_h="16" rect_w="8" rect_x="32" rect_y="64" >
+  </Char>
+  <Char id="99" rect_h="16" rect_w="7" rect_x="48" rect_y="64" >
+  </Char>
+  <Char id="100" rect_h="16" rect_w="8" rect_x="64" rect_y="64" >
+  </Char>
+  <Char id="101" rect_h="16" rect_w="7" rect_x="80" rect_y="64" >
+  </Char>
+  <Char id="102" rect_h="16" rect_w="5" rect_x="96" rect_y="64" >
+  </Char>
+  <Char id="103" rect_h="16" rect_w="7" rect_x="112" rect_y="64" >
+  </Char>
+  <Char id="104" rect_h="16" rect_w="8" rect_x="128" rect_y="64" >
+  </Char>
+  <Char id="105" rect_h="16" rect_w="3" rect_x="144" rect_y="64" >
+  </Char>
+  <Char id="106" rect_h="16" rect_w="4" rect_x="160" rect_y="64" >
+  </Char>
+  <Char id="107" rect_h="16" rect_w="6" rect_x="176" rect_y="64" >
+  </Char>
+  <Char id="108" rect_h="16" rect_w="4" rect_x="192" rect_y="64" >
+  </Char>
+  <Char id="109" rect_h="16" rect_w="10" rect_x="208" rect_y="64" >
+  </Char>
+  <Char id="110" rect_h="16" rect_w="8" rect_x="224" rect_y="64" >
+  </Char>
+  <Char id="111" rect_h="16" rect_w="7" rect_x="240" rect_y="64" >
+  </Char>
+  <Char id="112" rect_h="16" rect_w="8" rect_x="0" rect_y="80" >
+  </Char>
+  <Char id="113" rect_h="16" rect_w="7" rect_x="16" rect_y="80" >
+  </Char>
+  <Char id="114" rect_h="16" rect_w="5" rect_x="32" rect_y="80" >
+  </Char>
+  <Char id="115" rect_h="16" rect_w="6" rect_x="48" rect_y="80" >
+  </Char>
+  <Char id="116" rect_h="16" rect_w="4" rect_x="64" rect_y="80" >
+  </Char>
+  <Char id="117" rect_h="16" rect_w="7" rect_x="80" rect_y="80" >
+  </Char>
+  <Char id="118" rect_h="16" rect_w="7" rect_x="96" rect_y="80" >
+  </Char>
+  <Char id="119" rect_h="16" rect_w="9" rect_x="112" rect_y="80" >
+  </Char>
+  <Char id="120" rect_h="16" rect_w="7" rect_x="128" rect_y="80" >
+  </Char>
+  <Char id="121" rect_h="16" rect_w="7" rect_x="144" rect_y="80" >
+  </Char>
+  <Char id="122" rect_h="16" rect_w="7" rect_x="160" rect_y="80" >
+  </Char>
+</FontData>

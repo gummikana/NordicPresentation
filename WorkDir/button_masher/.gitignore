@@ -1,0 +1,11 @@
+#common filters
+screenshots/*
+screenshots_animated/*
+playbacks/*.poro_plbk
+log.txt
+temptemp/
+crashes/*.poro_plbk
+benchmark/*.poro_plbk
+
+*.exe
+
