@@ -97,7 +97,7 @@ PlatformDesktop::PlatformDesktop() :
 	mSoundPlayer( NULL ),
 	mRunning( 0 ),
 	mMousePos(),
-	mSleepingMode( PORO_MAXIMIZE_SLEEP ),
+	mSleepingMode( PORO_NEVER_SLEEP ),
 	mPrintFramerate( false ),
 	mRandomSeed( 1234567 )
 {
@@ -259,15 +259,9 @@ void PlatformDesktop::SingleLoop()
 
 void PlatformDesktop::Sleep( types::Double32 seconds )
 {
-	if( mSleepingMode == PORO_NEVER_SLEEP ) {
+		// pool sdl....
+		HandleEvents();
 		return;
-	}
-	else if( mSleepingMode == PORO_USE_SLEEP_0 ) {
-		SDL_Delay( 0 );
-	}
-	else if( mSleepingMode == PORO_MAXIMIZE_SLEEP ) {
-		SDL_Delay( (Uint32)( seconds * 1000.0 ) );
-	}
 }
 //-----------------------------------------------------------------------------
 

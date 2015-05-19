@@ -52,7 +52,9 @@ int main(int argc, char *argv[])
 		appconf.internal_size_h = 1280.f;
 		appconf.window_w = 1024;
 		appconf.window_h = 1280.f * 0.5f;
-		appconf.fullscreen = 1;
+
+		// REMEMBER REMOVE DEV STUFF
+		// appconf.fullscreen = 1;
 
 
 		/*appconf.internal_size_w = 1536;

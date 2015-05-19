@@ -145,8 +145,8 @@ void MouseClicker::SetScore( int score )
 	// score = 66;
 	float scale = ( 2.f + score * 0.3f ) * 0.085f;
 	mTargetScale = scale;
-	// mScore->SetScale( scale, scale );
-
+	
+	// mScore->SetScale( scale * 1.1f, scale * 1.1f );
 
 }
 
@@ -258,9 +258,7 @@ void MouseClicker::Draw( poro::IGraphics* graphics )
 	DrawHersheyText( graphics, "highscore: " + ceng::CastToString( mHighscore ),  
 		types::vector2( window_w - 520, 50 ), 48.f, poro::GetFColor( 1, 1, 1, 1 ) );
 
-	/*
-	DrawHersheyText( graphics, ceng::CastToString( mMouseClicks ),  
-		types::vector2( 50, 50 ), 48.f + (float)10.f * mMouseClicks, poro::GetFColor( 1, 1, 1, 1 ) );
+#ifdef IMPL_DEV_BUILD
 
 	float t = 0;
 	if( mStarted ) 
@@ -279,13 +277,10 @@ void MouseClicker::Draw( poro::IGraphics* graphics )
 		types::vector2( 1550, 650 - ( mButtonDelayNow * 2.f ) ), 48.f, poro::GetFColor( 1, 1, 1, 1 ) );
 	
 	DrawHersheyText( graphics, "min: " + ceng::CastToString( mButtonDelay.GetMin() ) + " ms",  
-		types::vector2( 1550, 50 ), 48.f, poro::GetFColor( 1, 1, 1, 1 ) );
+		types::vector2( 1550, 250 ), 48.f, poro::GetFColor( 1, 1, 1, 1 ) );
 
-	DrawHersheyText( graphics, "highscore: " + ceng::CastToString( mHighscore ),  
-		types::vector2( 50, 1450 ), 48.f, poro::GetFColor( 1, 1, 1, 1 ) );
 
-	// graph
-	*/
+#endif
 	// DrawLine( graphics, types::vector2( 0, 1000.f - 100.f * 2 ), types::vector2( 2000.f, 1000.f - 100.f * 2 ), poro::GetFColor( 0, 1,0, 0.5f ) );
 	// DrawLine( graphics, types::vector2( 0, 1000.f ), types::vector2( 2000.f, 1000.f ), poro::GetFColor( 1, 0,0 ) );
 	
