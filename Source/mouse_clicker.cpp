@@ -31,6 +31,7 @@ bool mStarted = false;
 float mStartTime = 0;
 int mMouseClicks = 0;
 float mLastTimePressed = 0;
+float mTargetScale = ( ( 2.f + 1 * 0.3f ) * 0.085f );
 
 std::vector< float > mGraph;
 
@@ -102,8 +103,8 @@ void MouseClicker::Init()
 
 	std::vector< std::string > lines;
 	ceng::VectorLoadFromTxtFile( lines, "highscore.txt" );
-	/*if( lines.empty() == false && lines[0].empty() == false )
-		mHighscore = ceng::CastFromString< int >( lines[0] );*/
+	if( lines.empty() == false && lines[0].empty() == false )
+		mHighscore = ceng::CastFromString< int >( lines[0] );
 
 	GameMouse::GetSingletonPtr()->Init();
 
@@ -135,8 +136,7 @@ void MouseClicker::Init()
 
 void MouseClicker::SetScore( int score )
 {
-
-	score = score + 1;
+	// score = score + 1;
 	mScore->SetText(ceng::CastToString( score ));
 	mScore->SetCenterOffset( 0.5f * mScore->GetTextureSize() );
 	mScore->MoveTo( types::vector2( 0.5f * window_w, 0.5f * window_h ) );
@@ -144,7 +144,8 @@ void MouseClicker::SetScore( int score )
 
 	// score = 66;
 	float scale = ( 2.f + score * 0.3f ) * 0.085f;
-	mScore->SetScale( scale, scale );
+	mTargetScale = scale;
+	// mScore->SetScale( scale, scale );
 
 
 }
@@ -195,6 +196,10 @@ void MouseClicker::Update( float dt )
 		for( int i = 0; i < 3; ++i )
 			color[i] *= 0.9f;
 		mScore->SetColor( color );
+
+		float scale = mScore->GetScaleX();
+		float new_scale = scale + 0.1f * ( mTargetScale - scale );
+		mScore->SetScale( new_scale, new_scale );
 	}
 
 	if( mSpriteContainer )
@@ -221,6 +226,21 @@ void MouseClicker::Draw( poro::IGraphics* graphics )
 		mDebugLayer->Draw( graphics );
 
 
+	SetLineWidth( 2.f );
+
+	// float how high
+	if( mHighscore > 0 )
+	{
+		float highscore_t = 5.f / mHighscore;
+		highscore_t *= 1000.f;
+
+		DrawLine( graphics, 
+			types::vector2( 0, window_h - ( highscore_t * 2.0f ) ),
+			types::vector2( window_w, window_h - ( highscore_t * 2.0f ) ),
+			poro::GetFColor( 0.15f, 0.15f, 0.15f, 0.05f ) );
+	}
+
+	SetLineWidth( 3.f );
 	for( int i = 1; i < mMouseClicks; ++i )
 	{
 		float step = (float)window_w / (float)(mMouseClicks - 1);
@@ -234,6 +254,9 @@ void MouseClicker::Draw( poro::IGraphics* graphics )
 
 	if( mSpriteContainer )
 		as::DrawSprite( mSpriteContainer, graphics );
+
+	DrawHersheyText( graphics, "highscore: " + ceng::CastToString( mHighscore ),  
+		types::vector2( window_w - 520, 50 ), 48.f, poro::GetFColor( 1, 1, 1, 1 ) );
 
 	/*
 	DrawHersheyText( graphics, ceng::CastToString( mMouseClicks ),  
@@ -296,6 +319,11 @@ void MouseClicker::MouseButtonDown(const poro::types::vec2& p, int button)
 				mParticleEffects->DoGoalEffect( types::vector2( 0, ceng::Randomf( 0.2f, 0.3f ) * window_h ), types::vector2( 0, 0 ) );
 				mParticleEffects->DoGoalEffect( types::vector2( 0.5f * window_w, ceng::Randomf( 0.2f, 0.3f ) * window_h ), types::vector2( 0, 0 ) );
 			}
+
+			// save highscore
+			std::fstream fout( "highscore.txt", std::ios::out );
+			fout << mHighscore << std::endl;
+			fout.close();
 
 		}
 	}
