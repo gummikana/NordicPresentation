@@ -69,6 +69,9 @@ void OnMouseDown()
 		float m_secs = (float)(mButtonPressTook * 1000.f);
 		mButtonDelayNow = m_secs;
 
+		if( mMouseClicks >= (int)mGraph.size() )
+			mGraph.resize( 2 * mGraph.size() );
+
 		mGraph[ mMouseClicks ]= mButtonDelayNow;
 		mMouseClicks++;
 
@@ -112,7 +115,7 @@ void MouseClicker::Init()
 
 	mSpriteContainer = new as::Sprite;
 	mSlider = as::LoadSprite( "data/slider.png" );
-	mSlider->SetSize( (float)window_w, (float)window_h );
+	mSlider->SetSize( (int)window_w, (int)window_h );
 	mSlider->MoveTo( types::vector2( 0, 0 ) );
 	mSpriteContainer->addChild( mSlider );
 
