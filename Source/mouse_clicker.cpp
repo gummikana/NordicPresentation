@@ -1,6 +1,6 @@
 #include "mouse_clicker.h"
 
-#define IMPL_DEV_BUILD
+// #define IMPL_DEV_BUILD
 
 #include <sdl.h>
 
