@@ -97,6 +97,8 @@ void MouseClicker::Init()
 {
 	DefaultApplication::Init();
 	Poro()->GetGraphics()->SetFillColor( poro::GetFColor( 248.f / 255.f, 245.f / 255.f, 236.f / 255.f, 1.f ) );
+
+	Poro()->GetMouse()->HideCursor();
 	// Poro()->SetPrintFramerate( false );
 
 	// CreateFont( "data/fonts/Ubuntu-C.ttf", 1200, "data/fonts/ubuntu.xml", "data/fonts/ubuntu.png" );

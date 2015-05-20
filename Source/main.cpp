@@ -55,6 +55,7 @@ int main(int argc, char *argv[])
 
 		// REMEMBER REMOVE DEV STUFF
 		appconf.fullscreen = 1;
+		appconf.record_events = false;
 
 
 		/*appconf.internal_size_w = 1536;
@@ -72,7 +73,7 @@ int main(int argc, char *argv[])
 		appconf.framerate = 60;
 
 		appconf.SetRandomSeed = ceng::SetRandomSeeds;
-		appconf.record_events = true;
+		// appconf.record_events = true;
 
 		/*appconf.do_a_playback = true;
 		appconf.playback_file = "playbacks/140214-175946-playback-8384.poro_plbk";*/
